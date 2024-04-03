@@ -7,10 +7,10 @@ Triggers:
     Branches:
       - main
   - Type: PULLREQUEST
-    Branches:
-      - main
     Events:
       - OPEN
+      - CLOSED
+      - REVISION
 
 # Required - Define action configurations.
 Actions:
