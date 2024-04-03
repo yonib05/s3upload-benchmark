@@ -33,6 +33,8 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: ls
+        - Run: cd artifacts
+        - Run: ls
       Container:
         Registry: CODECATALYST
         Image: CodeCatalystLinuxLambda_x86_64:2024_03
