@@ -9,6 +9,8 @@ Triggers:
   - Type: PULLREQUEST
     Branches:
       - main
+      - test-2
+      - Test
     Events:
       - OPEN
 
